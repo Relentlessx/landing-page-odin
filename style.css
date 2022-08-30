@@ -1,0 +1,72 @@
+div {
+    border: 2px solid aquamarine;
+}
+
+.flexContainer {
+    display: block;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    flex:1 1 auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
+
+.headerLinks {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.headerLogo{
+    flex: 1;
+}
+
+.header2 {
+    height: 300px;
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex: 1 1 auto;
+}
+
+.headerText{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    padding-left: 25%;
+}
+
+
+.headerPicture{
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.rowImages {
+    height: 300px;
+}
+
+.quoteSpace {
+    height: 300px;
+}
+
+.signUpSpace {
+    height: 300px;
+}
+
+.footer {
+    height: 100px;
+}
+
+
