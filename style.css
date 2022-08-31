@@ -1,5 +1,4 @@
 div {
-    border: 2px solid aquamarine;
 }
 
 h1 {
@@ -212,8 +211,17 @@ signUpContainer {
 }
 
 
+.footerContainer {
+    background-color: #1f2937;
+}
 .footer {
     height: 100px;
+    width: 80%;
+    margin: auto;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
