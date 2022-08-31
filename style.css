@@ -127,8 +127,28 @@ body {
     margin-top: -15px;
     text-align: center;
 }
+
+.quoteContainer {
+    background-color: #e5e7eb;
+}
 .quoteSpace {
     height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.thor {
+    text-align: right;
+    display: block;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .signUpSpace {
